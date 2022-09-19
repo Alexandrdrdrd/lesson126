@@ -28,13 +28,13 @@ class EmployeesAddForm extends Component{
                        className="form-control new-post-label"
                        placeholder="Как его зовут?"
                         onChange={this.onValueChange}
-                       value={name}
+                       value={this.state.name}
                         name="name"/>
 
                 <input type="number"
                        className="form-control new-post-label"
                        placeholder="З/П в $?"
-                       value={salary}
+                       value={this.state.salary}
                        onChange={this.onValueChange}
                        name="salary"/>
 

@@ -36,8 +36,6 @@ function App() {
             </div>
             <EmployeesList data={data}></EmployeesList>
             <EmployeesAddForm></EmployeesAddForm>
-
-
         </div>
     )
 }
